@@ -48,6 +48,13 @@ This repo is to show the git commands and the use of them
 
 ```docker run -p 8080:8080 -d myimage:latest```
 
+3. To observe which used port, example port number:5000:
+
+   ```lsof -i :5000```
+4. To kill port anything use that part by id:
+
+   ```kill -9 <PID>```
+
 ***Initializing react app with vite***
 1.   First: You need to run next command then follow the steps with No:
    
